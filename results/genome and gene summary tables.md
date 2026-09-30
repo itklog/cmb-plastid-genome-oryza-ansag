@@ -20,7 +20,7 @@
 | **Structural Features & Notable Observations** | • **Gene Duplications:** All genes located in the IRs are duplicated (IRa and IRb).<br><br>• **Pseudogenes / Losses:** Non-functional or lost accD, ycf1, and ycf2 genes (characteristic of Poaceae).<br><br>• **Introns:** Present in genes such as ndhA, ndhB, petB, petD, clpP, atpF, rpl2, rpl16, rps12, trnK-UUU, trnL-UAA, trnA-UGC, trnI-GAU.<br><br>• **Trans-splicing:** rps12 gene requires trans-splicing (exon 1 in LSC, exons 2/3 in IR). |
 
 
-### Identified Gene Groups (Oryza sativa)
+# Identified Gene Groups (Oryza sativa)
 
 | Gene Category | Genes Present in Oryza sativa Plastome |
 | :--- | :--- |
@@ -28,10 +28,10 @@
 | **Photosystem II (psb)** | psbA, psbB, psbC, psbD, psbE, psbF, psbH, psbI, psbJ, psbK, psbL, psbM, psbN, psbT, psbZ |
 | **ATP Synthase (atp)** | atpA, atpB, atpE, atpF, atpH, atpI |
 | **Cytochrome b6f (pet)** | petA, petB, petD, petG, petL, petN |
-| **RuBisCO (rbcL)** | rbcL (Large subunit of RuBisCO) |
+| **RuBisCO (rbcL)** | rbcL |
 | **RNA Polymerase (rpo)** | rpoA, rpoB, rpoC1, rpoC2 |
 | **Ribosomal Proteins (Large subunit, rpl)** | rpl2, rpl14, rpl16, rpl20, rpl22, rpl23, rpl32, rpl33, rpl36 |
-| **Ribosomal Proteins (Small subunit, rps)** | rps2, rps3, rps4, rps7, rps8, rps11, rps12, rps14, rps15, rps18, rps19 |
+| **Ribosomal Proteins (Small subunit, rps)** | rps2, rps3, rps4, rps7, rps8, rps11, rps12, rps14, rps15, rps16, rps18, rps19 |
 | **rRNA Genes (rrn)** | rrn4.5, rrn5, rrn16, rrn23 |
 | **tRNA Genes (trn)** | trnA-UGC, trnC-GCA, trnD-GUC, trnE-UUC, trnF-GAA, trnG-GCC, trnG-UCC, trnH-GUG, trnI-CAU, trnI-GAU, trnK-UUU, trnL-CAA, trnL-UAA, trnL-UAG, trnM-CAU, trnN-GUU, trnP-UGG, trnQ-UUG, trnR-ACG, trnR-UCU, trnS-GGA, trnS-GCU, trnS-UGA, trnT-GGU, trnT-UGU, trnV-GAC, trnV-UAC, trnW-CCA, trnY-GUA |
-| **Other Conserved Genes** | matK, clpP, cemA, infA, ccsA, ndhA, ndhB, ndhC, ndhD, ndhE, ndhF, ndhG, ndhH, ndhI, ndhJ, ndhK (accD, ycf1, ycf2 present as pseudogenes/truncated fragments) |
+| **Other Conserved Genes** | matK, clpP, cemA, infA, ccsA, ndhA, ndhB, ndhC, ndhD, ndhE, ndhF, ndhG, ndhH, ndhI, ndhJ, ndhK, ycf1, ycf2 (accD† and ndhH-fragment† present as pseudogenes/fragments) |
