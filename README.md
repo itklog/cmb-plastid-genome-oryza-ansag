@@ -57,8 +57,8 @@ The complete chloroplast genome of *Oryza sativa* (NC_001320.1) was obtained fro
 
 ### Tools Used
 
-- FASTA Statistics
-- gfastats / Sequence Statistics
+- **FASTA Statistics / gfastats (Sequence Statistics):** Used via Galaxy to compute primary genome-wide sequence parameters, sequence count, and GC content.
+- **GeSeq (v2.03):** Employed following the methodology described by Tillich et al. (2017) to conduct automated annotation, identify gene boundaries, exon-intron structures, and confirm gene content for the summary table.
 
 ### Results
 
@@ -108,6 +108,13 @@ The complete chloroplast genome of *Oryza sativa* (NC_001320.1) was obtained fro
 - NCBI GenBank Record  
   https://www.ncbi.nlm.nih.gov/nuccore/NC_001320.1?report=genbank
 
+
+### Software and Annotation References
+
+- **GeSeq Annotation Tool:**  
+  Tillich, M., Lehwark, P., Pellizzer, T., Ulbricht-Jones, E. S., Fischer, A., Bock, R., & Greiner, S. (2017). **GeSeq – versatile and accurate annotation of organelle genomes.** *Nucleic Acids Research*, 45(W1), W6–W11. https://doi.org/10.1093/nar/gkx391
+
+
 ### Primary Reference
 
 Hiratsuka J., Shimada H., Whittier R., Ishibashi T., Sakamoto M., Mori M., Kondo C., Honji Y., Sun C.R., Meng B.Y., Li Y.Q., Kanno A., Nishizawa Y., Hirai A., Shinozaki K., and Sugiura M. (1989).
@@ -123,7 +130,7 @@ Another student can reproduce this analysis by:
 1. Accessing the NCBI RefSeq record NC_001320.1.
 2. Downloading the complete chloroplast genome FASTA sequence.
 3. Uploading the FASTA file to Galaxy.
-4. Running the FASTA Statistics or gfastats tool.
-5. Recording genome size, sequence count, and GC content.
-6. Reviewing the GenBank annotation to identify gene content, plastome structure, introns, duplicated genes, and other notable features.
+4. Running the FASTA Statistics or gfastats tool to obtain total genome length, sequence count, and GC content.
+5. Submitting the FASTA sequence to the **GeSeq** organellar annotation web server (v2.03) using reference chloroplast sets to automatically identify and annotate protein-coding genes, tRNAs, rRNAs, splice junctions, and gene coordinates.
+6. Reviewing and cross-referencing the GeSeq and GenBank annotations to confirm gene counts, plastome structure, intron-containing genes, duplicated IR regions, and structural rearrangements.
 7. Comparing the obtained results with the published annotation record.
